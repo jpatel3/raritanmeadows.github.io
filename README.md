@@ -30,30 +30,6 @@ Alternatively, you can use any other local server of your choice, such as:
 4. Under "Source", select "main" branch
 5. Click "Save"
 
-### Domain Configuration
-
-1. In your domain registrar (where you purchased raritanmeadows.org):
-   - Add these DNS records:
-     ```
-     Type: A
-     Name: @
-     Value: 185.199.108.153
-     Value: 185.199.109.153
-     Value: 185.199.110.153
-     Value: 185.199.111.153
-     ```
-   - Add this CNAME record:
-     ```
-     Type: CNAME
-     Name: www
-     Value: raritanmeadows.github.io
-     ```
-
-2. In your GitHub repository:
-   - Go to Settings > Pages
-   - Under "Custom domain", enter `raritanmeadows.org`
-   - Check "Enforce HTTPS"
-
 ## Updating the Website
 
 To update the website:
