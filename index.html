@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raritan Meadows HOA - Flemington, NJ</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --text-color: #333;
+            --light-bg: #f8f9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            background-color: var(--light-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .contact-info h3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info h3:first-child {
+            margin-top: 0;
+        }
+
+        .announcement {
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Raritan Meadows Homeowners Association</h1>
+        <p>Flemington, New Jersey</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#announcements">Announcements</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Raritan Meadows</h2>
+            <p>Welcome to the official website of the Raritan Meadows Homeowners Association. This website serves as a central hub for important information, announcements, and resources for our community members.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Our Community</h2>
+            <p>Raritan Meadows is a beautiful residential community located in Flemington, New Jersey. Our community is dedicated to maintaining high standards of living and fostering a welcoming environment for all residents.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <h3>Board of Directors</h3>
+                <p>Email: <a href="mailto:board@raritanmeadows.org">board@raritanmeadows.org</a></p>
+                
+                <h3>Mailing Address</h3>
+                <p>Raritan Meadows HOA<br>
+                P.O. Box 436<br>
+                Flemington, NJ 08822</p>
+
+                <h3>Payment Information</h3>
+                <p>Please send all HOA payments to the above mailing address. Make checks payable to "Raritan Meadows Homeowners Association".</p>
+            </div>
+        </section>
+
+        <section id="announcements">
+            <h2>Announcements</h2>
+            <div class="announcement">
+                <h3>2025 RMHA Dues</h3>
+                <p>💰 RMHA dues for the year 2025 are due by May 1st, 2025.<br>
+                Please send your payment to the mailing address listed in the Contact Information section.</p>
+            </div>
+            <div class="announcement">
+                <h3>Annual RMHA Spring Meeting</h3>
+                <p>📅 Date: April 9th, 2025<br>
+                ⏰ Time: 7:00 PM<br>
+                📍 Location: Zoom (link to be provided soon)<br>
+                Please check back for the Zoom meeting link.</p>
+            </div>
+            <div class="announcement">
+                <h3>Community Updates</h3>
+                <p>Stay tuned for important community updates and announcements.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Raritan Meadows Homeowners Association. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
