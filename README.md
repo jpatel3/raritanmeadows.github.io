@@ -15,28 +15,6 @@ To run the website locally:
 4. The website will automatically open in your default web browser
 5. To stop the server, press Ctrl+C in the terminal
 
-Alternatively, you can use any other local server of your choice, such as:
-- Python's built-in server: `python -m http.server 8000`
-- Node.js's `http-server`: `npx http-server`
-- PHP's built-in server: `php -S localhost:8000`
-
-## Setup Instructions
-
-### GitHub Pages Setup
-
-1. Create a new GitHub repository named `raritanmeadows.github.io`
-2. Push this code to the repository
-3. Go to repository Settings > Pages
-4. Under "Source", select "main" branch
-5. Click "Save"
-
-## Updating the Website
-
-To update the website:
-1. Edit the `index.html` file
-2. Commit and push changes to the main branch
-3. GitHub Pages will automatically update the website
-
 ## Contact
 
 For any questions or issues, please contact the board at board@raritanmeadows.org 
